@@ -11,7 +11,7 @@ if (process.env.NODE_ENV !== 'production') {
   app.use(express.static('public'))
   
   app.post('/weather', (req, res) => {
-    console.log(req.body)
+   console.log(req.Body)
   })
   
   app.listen(3000, () => {
